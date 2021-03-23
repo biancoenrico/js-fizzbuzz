@@ -21,8 +21,6 @@ for (var i = 0; i <= 100; i++) {
         // per far si che vengano selezionati solo i multipli di 3
     }else if(numero % 3 == 0){
         console.log('fizzbuzz');        
-
-        // per far continuare il conteggio e azzerare le if precedenti
     }
 
     console.log(numero);
