@@ -4,11 +4,13 @@
 
 
 
-// dichiarazione variabili
-var numero = i
+
 
 // ciclo for per far contare la mcchina fino a 100
 for (var i = 0; i <= 100; i++) {
+
+    // dichiarazione variabili
+    var numero = i
     
     // per far si che vengano selezionati solo i multipli di 3 e di 5
     if(numero % 3 === 0 && numero % 5 === 0){
@@ -21,8 +23,9 @@ for (var i = 0; i <= 100; i++) {
         // per far si che vengano selezionati solo i multipli di 3
     }else if(numero % 3 == 0){
         console.log('fizzbuzz');        
-    }
 
+    }
+    
     console.log(numero);
 
 }
