@@ -5,33 +5,26 @@
 
 
 // dichiarazione variabili
-var numero = 0
+var numero = i
 
 // ciclo for per far contare la mcchina fino a 100
 for (var i = 0; i <= 100; i++) {
     
-    // per visualizzare correttamente il risultato
-    numero++
-
     // per far si che vengano selezionati solo i multipli di 3 e di 5
     if(numero % 3 === 0 && numero % 5 === 0){
-        numero = 'fizzbuzz'
-        console.log(numero);
+        console.log('fizzbuzz');
 
         // per far si che vengano selezionati solo i multipli di 5
     }else if(numero % 5 == 0){
-        numero = 'buzz'
-        console.log(numero);
+        console.log('fizzbuzz');        
 
         // per far si che vengano selezionati solo i multipli di 3
     }else if(numero % 3 == 0){
-        numero = 'fizz'
-        console.log(numero);
+        console.log('fizzbuzz');        
 
         // per far continuare il conteggio e azzerare le if precedenti
-    }else{
-        numero=i
-        console.log(numero);
     }
+
+    console.log(numero);
 
 }
